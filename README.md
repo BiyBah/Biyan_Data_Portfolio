@@ -4,7 +4,7 @@ Hi, this repository contains what I've learned, what skills I have and my projec
 
 [My linkedin](linkedin.com/in/biyan-bahtiar-ramadhan)
 
-My CV
+[My CV](https://drive.google.com/file/d/1Nswhm5pY63Xt2B-aGPpHkfl6VQAtcqy-/view?usp=sharing)
 
 ## Projects
 **1. Property Listing Company: Analysis and Price Prediction**
