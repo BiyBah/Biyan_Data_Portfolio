@@ -17,13 +17,13 @@ Skills: Data Cleaning, Exploratory Data Analysis, Multiple Linear Regression
 
 This study project aims to help property listing company solve their problem in selling their property, since high-priced property is hard to sell. My task is to determine which property can be categorized into luxury and affordable based on price, room count and room size. I also help in making price prediction for the customer who wants to purchase specific property based on 4 characteristic.
 
-**2. Fast Food Chain: Campaign Analysis**
+**2. Food Chain: Campaign Analysis**
 
 Application: Google Spreadsheet
 
 Skills: Exploratory Data Analysis, A/B testing, Correlation
 
-[Deck link](https://drive.google.com/file/d/1iLrrfmk6udFL1DT5O1cHQ5E_QZFdBLJu/view?usp=sharing)
+[Deck link](https://drive.google.com/file/d/1weP52DcBS5kdTzzms8C2qyCcAuPQs9_2/view?usp=sharing)
 
 Fast Food Chain is undecided on which campaign is better on sales and whether market size has any effect on sales. Exploratory data analysis and inferential statistical tests help determine that campaign no.1 yields the best sales and market size also influences sales.
 
@@ -39,7 +39,7 @@ Clothing Ecommerce needs help on determining which clothes category to be deprio
 
 **4. Mutual Fund Startup Analysis, Clustering and Classification**
 
-Application: [Google Colab](https://colab.research.google.com/drive/1r1wjrJW1c01zqZJZo5TgoFy6cnnfmnUC?usp=sharing)
+Application: [Google Colab](https://drive.google.com/file/d/1RvHGqGL9iVARU9NLJFU2UYoUy2W-qUDg/view?usp=sharing)
 
 Skills: Data Cleaning, Exploratory Data Analysis, Feature Selection and Engineering, Unsupervised Machine Learning (PCA, K-Means Clustering), Supervised Machine Learning (Logistic Regression, Random Forest Classifier, Gradient Boosting Classifier), Cost-Benefit Analysis.
 
