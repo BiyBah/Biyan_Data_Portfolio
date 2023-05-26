@@ -6,6 +6,8 @@ Hi, this repository contains what I've learned, what skills I have and my projec
 
 [My CV](https://drive.google.com/file/d/1Nswhm5pY63Xt2B-aGPpHkfl6VQAtcqy-/view?usp=sharing)
 
+[Portfolio Deck](https://drive.google.com/file/d/1UZP-iWgWubZ09ilQNL2ouULMpd991Lib/view?usp=drive_link)
+
 ## Projects
 **1. Property Listing Company: Analysis and Price Prediction**
 
