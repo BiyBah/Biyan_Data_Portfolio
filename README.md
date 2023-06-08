@@ -9,7 +9,18 @@ Hi, this repository contains what I've learned, what skills I have and my projec
 [Portfolio Deck](https://drive.google.com/file/d/1UZP-iWgWubZ09ilQNL2ouULMpd991Lib/view?usp=drive_link)
 
 ## Projects
-**1. Property Listing Company: Analysis and Price Prediction**
+
+**1. Clothing Ecommerce Analysis**
+
+Application: BigQuery, Google Spreadsheet
+
+Skills: SQL(DML, join, CTE), Understanding ERD, Exploratory Data Analysis, BCG matrix, Cohort, Retention Analysis, Root Cause Analysis
+
+[Deck link](https://drive.google.com/file/d/1F4p-pWePMktH9I2HQKJ09HnrpUStefqs/view?usp=sharing)
+
+Clothing Ecommerce needs help on determining which clothes category to be deprioritized, understand the retention rate of customer and find what can be done to boost retention rate. Data Analysis is performed after obtaining data from BigQuery database. I found 2 categories that need to be deprioritized, low retention rate accross years and categories. I also found initiative to recommend for the company.
+
+**2. Property Listing Company: Analysis and Price Prediction**
 
 Application: Google Spreadsheet
 
@@ -19,7 +30,7 @@ Skills: Data Cleaning, Exploratory Data Analysis, Multiple Linear Regression
 
 This study project aims to help property listing company solve their problem in selling their property, since high-priced property is hard to sell. My task is to determine which property can be categorized into luxury and affordable based on price, room count and room size. I also help in making price prediction for the customer who wants to purchase specific property based on 4 characteristic.
 
-**2. Food Chain: Campaign Analysis**
+**3. Food Chain: Campaign Analysis**
 
 Application: Google Spreadsheet
 
@@ -28,16 +39,6 @@ Skills: Exploratory Data Analysis, A/B testing, Correlation
 [Deck link](https://drive.google.com/file/d/1weP52DcBS5kdTzzms8C2qyCcAuPQs9_2/view?usp=sharing)
 
 Fast Food Chain is undecided on which campaign is better on sales and whether market size has any effect on sales. Exploratory data analysis and inferential statistical tests help determine that campaign no.1 yields the best sales and market size also influences sales.
-
-**3. Clothing Ecommerce Analysis**
-
-Application: BigQuery, Google Spreadsheet
-
-Skills: SQL(DML, join, CTE), Understanding ERD, Exploratory Data Analysis, BCG matrix, Cohort, Retention Analysis, Root Cause Analysis
-
-[Deck link](https://drive.google.com/file/d/1F4p-pWePMktH9I2HQKJ09HnrpUStefqs/view?usp=sharing)
-
-Clothing Ecommerce needs help on determining which clothes category to be deprioritized, understand the retention rate of customer and find what can be done to boost retention rate. Data Analysis is performed after obtaining data from BigQuery database. I found 2 categories that need to be deprioritized, low retention rate accross years and categories. I also found initiative to recommend for the company.
 
 **4. Mutual Fund Startup Analysis, Clustering and Classification**
 
@@ -78,3 +79,13 @@ Skills: SQL, Data Wrangling, Exploratory Data Analysis, Create Dashboard
 [Deck link](https://drive.google.com/file/d/1ixsLkZUaieYojPTm-poXfY-5I2lU6ot_/view?usp=sharing)
 
 Side project that challenges me to work on a huge dataset obtained from BigQuery. Google Colab is used for data cleaning and to make column that helps Tableau data processing.
+
+**8. Wide-World Importer Business Dashboard**
+
+Application: Power BI
+
+Skills: Data Cleaning, Exploratory Data Analysis, Data Visualization, Create Dashboard
+
+[Visualization Link](https://drive.google.com/file/d/19k4b8ggEU06YJS0dpUppmI3rQqbrQyJ2/view?usp=sharing)
+
+Side solo-project exploring Power BI functionalities. This interactive dashboard contains business metrics such as profit, total transaction, total customer, average order per customer, average order value and profit margin. It can be filtered by state, province, city and based on time (yearly, quarterly, monthly, weekly and daily).
