@@ -3,7 +3,7 @@
 Hi, this repository contains the projects I've done as a Data Analyst/Scientist/Engineer. Please reach me out via [linkedin](linkedin.com/in/biyan-bahtiar-ramadhan) or [My email](mailto:biyan.bahtiar@gmail.com). Have fun!
 
 <p align:"center">
-   <img src="https://github.com/BiyBah/Biyan-Bahtiar-Data-Analytics-Portfolio/blob/work_in_progress/2GU.gif" alt="animated" />()
+   <img src="https://github.com/BiyBah/Biyan-Bahtiar-Data-Analytics-Portfolio/blob/work_in_progress/2GU.gif" alt="animated" />
 </p>
 
 ##**1. Leads Conversion Rate Analysis**
