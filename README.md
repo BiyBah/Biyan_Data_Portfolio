@@ -1,14 +1,10 @@
 # Biyan-Bahtiar-Data-Analytics-Portfolio
 
-Hi, this repository contains the projects I've done as a Data Analyst/Scientist/Engineer.
+Hi, this repository contains the projects I've done as a Data Analyst/Scientist/Engineer. Please reach me out via [linkedin](linkedin.com/in/biyan-bahtiar-ramadhan) or [My email](mailto:biyan.bahtiar@gmail.com). Have fun!
 
-[My linkedin](linkedin.com/in/biyan-bahtiar-ramadhan)
+![2GU.gif](https://github.com/BiyBah/Biyan-Bahtiar-Data-Analytics-Portfolio/blob/work_in_progress/2GU.gif)
 
-[My email](mailto:biyan.bahtiar@gmail.com)
-
-## Projects
-
-**1. Leads Conversion Rate Analysis**
+##**1. Leads Conversion Rate Analysis**
 
 Application: Google Colab, BigQuery
 
