@@ -1,12 +1,10 @@
 # Biyan-Bahtiar-Data-Analytics-Portfolio
 
-Hi, this repository contains what I've learned, what skills I have and my projects as Data Analyst. 
+Hi, this repository contains the projects I've done as a Data Analyst/Scientist/Engineer.
 
 [My linkedin](linkedin.com/in/biyan-bahtiar-ramadhan)
 
-[My CV](https://drive.google.com/file/d/1qVst-1BG3CYtVJCT0u4j3niCAhQmBhgF/view?usp=drive_link)
-
-[Portfolio Deck](https://drive.google.com/file/d/1UZP-iWgWubZ09ilQNL2ouULMpd991Lib/view?usp=drive_link)
+[My email](mailto:biyan.bahtiar@gmail.com)
 
 ## Projects
 
