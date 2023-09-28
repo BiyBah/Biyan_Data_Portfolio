@@ -2,7 +2,7 @@
 Application: Google Colab, BigQuery
 Skills: SQL, Understanding ERD, Root-Cause Analysis, Exploratory Data Analysis, Clustering Analysis, Impact Analysis
 
-Please refer to the deck in this directory for further info.
+Please refer to the pdf deck in this directory for further info.
 
 ## Problem:
 B2B SaaS HRIS company is faced with stagnant leads-to-customer conversion rate around 25% in 2022, even though marketing spend keeps increasing by 15% per quarter.
