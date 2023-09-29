@@ -4,7 +4,7 @@ Skills: SQL, Python, Dashboard, Data Analysis.\
 Please refer to the pdf deck in this directory for further info.
 ## Problem:
 In Q1 and Q2 2022, many company do financial efficiency. Does this affect PeopleU performance?\
-Task: create dashboard to monitor PeoplU performance.
+Task: create dashboard to monitor PeopleU performance.
 ## Objective:
 - To know sales and marketing performace of PeopleU in 2022.
 - To create dashboard to monitor sales and marketing performance.
