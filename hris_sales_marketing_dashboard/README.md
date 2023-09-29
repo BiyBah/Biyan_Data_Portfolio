@@ -1,6 +1,7 @@
 # B2B SaaS HRIS Company Marketing & Sales Analysis and Dashboard
 Application: Google Colab, BigQuery, Tableau\
-Skills: SQL, Python, Dashboard, Data Analysis\\
+Skills: SQL, Python, Dashboard, Data Analysis\
+
 Please refer to the pdf deck in this directory for further info.\
 ## Problem:
 B2B SaaS HRIS company is faced with stagnant leads-to-customer conversion rate around 25% in 2022, even though marketing spend keeps increasing by 15% per quarter.
