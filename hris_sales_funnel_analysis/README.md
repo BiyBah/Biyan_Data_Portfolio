@@ -24,12 +24,6 @@ Please refer to deck for further detail.
 - The highest % leads drop is after the discussion is finished. However, based on total number, leads drop-out mostly after initial communication is success.
 - Leads mostly don't state their reason on why they drop out. Most common reason of leads dropping is because they aren't interested on the product. The 2nd most common reason is price not fit.
 - Industry that complains price not fit the most is F&B, followed by Education and Tech.
-- 
-
-### Impact Analysis
-- From linear regression, it is found that Direct marketing channel CPC and direct marketing channel are the most efficient in gaining leads or customer. However, only Direct Marketing channel has acceptable conversion rate in 28%. Referral also has high conversion rate but is the worst in terms of marketing spend efficiency.
-- To achieve 28% conversion rate, it is estimated that company needs to improve conversion rate from leads F&B <140 employee, Tech <140 employee, education <140 employee, retail <140 employee, retail >= 140 employee, tech >= 140 employee and finance >=140 employee by 1.06x. Why them? Because they are the 80% leads in company.
-- From customer survey, leads with number of employee >= 200 are more dissatisfied in response time compared to other number of employee.
 
 ### Recommendation
 - Offer customization options or negotiate pricing.
