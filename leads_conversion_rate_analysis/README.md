@@ -1,5 +1,5 @@
 # **Leads Conversion Rate Analysis in B2B SaaS HRIS Company**
-Application: Google Colab, BigQuery
+Application: Google Colab, BigQuery\
 Skills: SQL, Understanding ERD, Root-Cause Analysis, Exploratory Data Analysis, Clustering Analysis, Impact Analysis
 
 Please refer to the pdf deck in this directory for further info.
