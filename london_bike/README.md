@@ -1,8 +1,6 @@
 # London Bike Rental Analysis and Dashboard
-Application: BigQuery, Google Colab, Google Spreadsheet, Tableau
-
-Skills: SQL, Data Analysis, Dashboard
-
+Application: BigQuery, Google Colab, Google Spreadsheet, Tableau\
+Skills: SQL, Data Analysis, Dashboard\
 This is a solo project outside bootcamp. Please refer to the pdf deck in this directory for further info.
 
 ## Problem:
