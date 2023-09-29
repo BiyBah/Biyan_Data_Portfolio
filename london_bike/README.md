@@ -1,5 +1,6 @@
 # London Bike Rental Analysis and Dashboard
 Application: BigQuery, Google Colab, Google Spreadsheet, Tableau
+
 Skills: SQL, Data Analysis, Dashboard
 
 This is a solo project outside bootcamp. Please refer to the pdf deck in this directory for further info.
@@ -17,36 +18,60 @@ I want to explore:
 ## Method:
 ### Query data from BigQuery
 SELECT
+
 rental_id
+
 , end_date
+
 , end_station_id
+
 , start_date
+
 , start_station_id
+
 FROM `bigquery-public-data.london_bicycles.cycle_hire`
+
 WHERE start_station_id IS NOT NULL
+
 AND EXTRACT(YEAR FROM DATE(start_date)) = 2016;
 
+
+
 SELECT
+
 rental_id
+
 , duration
-, EXTRACT(DAYOFWEEK FROM DATE(start_date)) AS
-start_date_day
+
+, EXTRACT(DAYOFWEEK FROM DATE(start_date)) AS start_date_day
+
 , IF(
 EXTRACT(DAYOFWEEK FROM DATE(start_date)) = 1
 OR
 EXTRACT(DAYOFWEEK FROM DATE(start_date)) = 7,
 "weekend", "weekday") AS is_weekday
+
 , EXTRACT(HOUR FROM DATETIME(start_date)) AS start_hour
+
 , EXTRACT(HOUR FROM DATETIME(end_date)) AS end_hour
+
 FROM `bigquery-public-data.london_bicycles.cycle_hire`
+
 WHERE start_station_id IS NOT NULL
+
 AND EXTRACT(YEAR FROM DATE(start_date)) = 2016;
 
+
 SELECT
+
 id
+
 , name
+
 , latitude
+
 , longitude
+
 FROM `bigquery-public-data.london_bicycles.cycle_stations`;
 
 ### Data Cleaning
