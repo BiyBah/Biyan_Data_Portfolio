@@ -1,0 +1,51 @@
+--Avg umur customer dilihat dari marital status
+--select 
+--	"Marital Status" as marital_status
+--	, ROUND(AVG(age),2) as average_age
+--from public.customer
+--where "Marital Status" in ('Married', 'Single') 
+--group by 1;
+
+--Avg umur customer dilihat dari gender
+--select 
+--	case 
+--		when gender = 0 then 'Wanita'
+--		else 'Pria'
+--	end as gender
+--	, ROUND(AVG(age),2) as average_age
+--from public.customer
+--group by 1;
+
+--Nama store dengan total quantity terbanyak
+--with table_1 as(
+--	select
+--		s.storename as store_name
+--		, sum(t.qty) as total_quantity
+--		, rank() over(order by sum(t.qty) desc) as "rank"
+--	from store s
+--	inner join "transaction" t
+--		on s.storeid = t.storeid
+--	group by 1
+--)
+--select
+--	store_name
+--	, total_quantity
+--from table_1
+--where "rank" = 1;
+
+--product dengan total amount terbanyak
+--with table_1 as(
+--	select
+--		p."Product Name" as product_name
+--		, sum(t.totalamount) as total_amount
+--		, rank() over(order by sum(t.totalamount) desc) as "rank"
+--	from product p
+--	inner join "transaction" t
+--		on p.productid = t.productid
+--	group by 1
+--)
+--select
+--	product_name
+--	, total_amount
+--from table_1
+--where "rank" = 1;
