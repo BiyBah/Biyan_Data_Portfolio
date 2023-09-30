@@ -37,9 +37,9 @@ Please refer to the pdf deck in this directory for further info.
 - Please refer to deck for further detail.
 
 ### Predicting the most beneficial user by using classification model
-- To obtain such user, I need to know which user is most likely to churn. That churning user will be targeted by campaign, hoping that they will not churn.
+- To obtain such user, I need to know which user is most likely to churn. That churn user will be targeted by campaign, hoping that they will not churn.
 - Step 1: Feature engineering and feature selection.
-- Step 2: Model building, model selection and evaluation.
+- Step 2: Model building, model selection and evaluation (compare logistic regression, gradient boosting and random forest)
 - Step 2a: train test split.
 - Step 2b: power transform high skew column.
 - Step 2c: recursive feature elimination.
@@ -49,7 +49,7 @@ Please refer to the pdf deck in this directory for further info.
 - It is found that logistic regression gave the best f1-score by 0,716.
 
 ### Cost-Benefit Analysis
-- It is calculated by substracting benefit of making people do transaction and cost of marketing campaign for each cluster.
+- It is calculated by subtracting benefit of making people do transaction and cost of marketing campaign for each cluster.
 - Average buy and sell per month is obtained on each cluster.
 - Target the top 0.3 percentile user who predicted to churn.
 - The result is it is recommended to do campaign only in cluster 1, 4, 5, 6 and 8 with the potential return of Rp 3.330.578,-
