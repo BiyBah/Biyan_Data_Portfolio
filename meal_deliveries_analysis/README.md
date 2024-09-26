@@ -58,7 +58,7 @@ I did ANOVA with 1 factor which is promotion and 4 levels which are emailer, fea
 I used tukey test as the post-hoc analysis when ANOVA found there is significant difference between levels.
 Then based on tukey result I decide which promotion is the best.
 
-![promo_analysis.png](./promo_analysis.png)
+![promo_analysis.xlsx](./promo_analysis.xlsx)
 
 ## 4. Forecast food order numbers
 I compare moving average 3 weeks, linear regression model and light gradient boosting model, with MAE as evaluation metrics. The features used are order week lag (the lag is based on PACF that is significant above/below confidence interval), discount as float, emailer as category and featured as category. The model is trained depends on city_code and meal_id. The user can request which meal_id, city_code to forecast and he/she can input discount, and any promotion. For transparency, I display the line plot and the MAE for each model, alongside the predicted orders for next week and let user decides which model to use.User should be informed on what to look on MAE (the lower is better).
@@ -66,3 +66,7 @@ I compare moving average 3 weeks, linear regression model and light gradient boo
 One limitation of this model came from the train data. Current train data doesn't show discount or any promotion if there is no order in particular week (the week is skipped). But the model will retrain if newest dataset is available.
 
 There is no perfect forecast. Purchasing manager and supply chain should also have flexibility if the forecast is under or over to reduce food waste and increase customer satisfaction.
+
+Here is the sample output on test set. The annotation indicates discount, emailer (0 or 1, 1 means there is emailer) and featured (0 or 1, 1 means there is featured in company's website)
+
+![example_output](./example_output.png)
