@@ -40,7 +40,7 @@ Create a report that covers the following:
 # Executive Summary
 ## 1. Most popular food categories in each region
 
-![Most Popular Food Categories in each region](./Popular Food Category in Each Region.png)
+![Most Popular Food Categories in each region](./'Popular Food Category in Each Region.png')
 
 The most popular categories in all region is beverages. Followed by either rice bowl or sandwich.
 
