@@ -67,6 +67,6 @@ One limitation of this model came from the train data. Current train data doesn'
 
 There is no perfect forecast. Purchasing manager and supply chain should also have flexibility if the forecast is under or over to reduce food waste and increase customer satisfaction.
 
-Here is the sample output on test set. The annotation indicates discount, emailer (0 or 1, 1 means there is emailer) and featured (0 or 1, 1 means there is featured in company's website)
+Here is the sample output on test set. The annotation indicates discount, emailer (0 or 1, 1 means there is emailer) and featured (0 or 1, 1 means there is featured in company's website). Dataframe is also available as an output that can be then exported to csv or excel.
 
 ![example_output](./example_output.png)
