@@ -1,0 +1,6 @@
+"car_id","brand","car_name","year","price","mileage_km","city","haversine_distance"
+12167,"Dodge","Dodge Charger",2013,820000000,"340000","Cimahi","0.0009745123525932798"
+12097,"Hyundai","Hyundai Santa Fe",2013,530000000,"340000","Cimahi","0.0009745123525932798"
+12027,"Hyundai","Hyundai Santa Fe",2013,1650000000,"800000","Cimahi","0.0009745123525932798"
+12020,"Porsche","Porsche 911",2016,1970000000,"870000","Sukabumi","0.03887838382807998"
+12090,"Toyota","Toyota Corolla",2016,420000000,"940000","Sukabumi","0.03887838382807998"
