@@ -1,0 +1,42 @@
+"car_id","brand","car_name","year","price"
+12073,"Audi","Audi A4",2016,1590000000
+12131,"Jeep","Jeep Grand Cherokee",2016,1190000000
+12151,"Mercedes-Benz","Mercedes-Benz C-Class",2016,1560000000
+12015,"Chevrolet","Chevrolet Tahoe",2015,1380000000
+12180,"Honda","Honda CR-V",2015,1810000000
+12069,"Honda","Honda CR-V",2015,290000000
+12043,"Honda","Honda CR-V",2016,1910000000
+12154,"Honda","Honda Accord",2016,1350000000
+12066,"Ford","Ford Mustang",2016,1950000000
+12094,"Mazda","Mazda CX-5",2015,600000000
+12166,"Toyota","Toyota Yaris",2015,110000000
+12090,"Toyota","Toyota Corolla",2016,420000000
+12041,"BMW","BMW X5",2016,460000000
+12079,"Porsche","Porsche 911",2016,1220000000
+12064,"Porsche","Porsche 911",2016,620000000
+12020,"Porsche","Porsche 911",2016,1970000000
+12081,"Mercedes-Benz","Mercedes-Benz E-Class",2016,490000000
+12138,"Honda","Honda Civic",2015,840000000
+12159,"Ford","Ford Explorer",2015,1950000000
+12155,"Ford","Ford Explorer",2015,620000000
+12099,"Ford","Ford Explorer",2015,110000000
+12106,"Kia","Kia Sorento",2015,910000000
+12029,"Kia","Kia Sorento",2015,820000000
+12163,"BMW","BMW 3 Series",2016,820000000
+12111,"BMW","BMW 3 Series",2015,1470000000
+12197,"Toyota","Toyota Highlander",2015,1340000000
+12008,"Chevrolet","Chevrolet Malibu",2016,480000000
+12198,"Ford","Ford Escape",2015,1940000000
+12023,"Ford","Ford Escape",2016,1280000000
+12139,"Honda","Honda Pilot",2015,1610000000
+12068,"Tesla","Tesla Model S",2016,990000000
+12016,"Tesla","Tesla Model S",2015,260000000
+12137,"Lexus","Lexus RX",2015,1990000000
+12091,"Lexus","Lexus RX",2016,1680000000
+12100,"Nissan","Nissan Rogue",2016,1070000000
+12087,"Subaru","Subaru Outback",2015,1080000000
+12039,"Subaru","Subaru Outback",2015,710000000
+12067,"Tesla","Tesla Model 3",2016,620000000
+12001,"Tesla","Tesla Model 3",2016,1790000000
+12147,"Hyundai","Hyundai Santa Fe",2016,1270000000
+12110,"Hyundai","Hyundai Elantra",2016,1820000000
