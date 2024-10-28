@@ -14,7 +14,8 @@ Data cleaning, data visualization, statistical analysis, and extracting insights
 I'm currently pursuing data engineering course, learning relational database best practices and docker.
 
 ## Latest project
-![meal_deliveries_analysis](./project/meal_deliveries_analysis)
+![create_OLTP_database](./project/DataEngineer/used_car_ecommerce_database)
+![meal_deliveries_analysis](./project/DataAnalytics/meal_deliveries_analysis)
 
 ## Let's Connect!
 [Email](mailto:biyan.bahtiar@gmail.com)
