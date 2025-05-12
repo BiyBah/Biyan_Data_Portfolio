@@ -15,7 +15,7 @@ I'm currently pursuing data engineering course, learning relational database bes
 
 ## Latest project
 ![AI-Powered Inventory Optimization Hub](https://github.com/Group4IYKRA/ai-dashboard-app)
-![create_OLTP_database](./project/DataEngineer/used_car_ecommerce_database)
+![create_used_car_ecommerce_database](./project/DataEngineer/used_car_ecommerce_database)
 
 ## Let's Connect!
 [Email](mailto:biyan.bahtiar@gmail.com)
