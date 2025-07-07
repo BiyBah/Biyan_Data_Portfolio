@@ -131,7 +131,7 @@ Sink: fct_customer_behavior
 ![erd_dwh](assets/erd_dwh.png)
 
 ### Pipeline
-![erd_dwh](assets/pacbook dwh pipeline.png)
+![erd_dwh](assets/pacbook_dwh_pipeline.png)
 
 ### To do list
 - Update the schema to better reflect the data warehouse
