@@ -1,0 +1,23 @@
+2025-07-07 11:43:54,422 - INFO - Read Truncate Query - SUCCESS
+2025-07-07 11:43:54,572 - INFO - Read extracted CSV - SUCCESS
+2025-07-07 11:43:54,574 - INFO - Connect to DWH - SUCCESS
+2025-07-07 11:43:54,718 - INFO - Create/Truncate staging Schema in DWH - SUCCESS
+2025-07-07 11:43:54,718 - INFO - ==================================STARTING LOAD DATA=======================================
+2025-07-07 11:43:54,748 - INFO - LOAD Table country To staging schema DWH - SUCCESS
+2025-07-07 11:43:54,762 - INFO - LOAD Table address_status To staging schema DWH - SUCCESS
+2025-07-07 11:43:55,087 - INFO - LOAD Table author To staging schema DWH - SUCCESS
+2025-07-07 11:43:55,100 - INFO - LOAD Table book_language To staging schema DWH - SUCCESS
+2025-07-07 11:43:55,165 - INFO - LOAD Table publisher To staging schema DWH - SUCCESS
+2025-07-07 11:43:55,178 - INFO - LOAD Table shipping_method To staging schema DWH - SUCCESS
+2025-07-07 11:43:55,190 - INFO - LOAD Table order_status To staging schema DWH - SUCCESS
+2025-07-07 11:43:55,270 - INFO - LOAD Table customer To staging schema DWH - SUCCESS
+2025-07-07 11:43:56,210 - INFO - LOAD Table order_history To staging schema DWH - SUCCESS
+2025-07-07 11:43:57,029 - INFO - LOAD Table order_line To staging schema DWH - SUCCESS
+2025-07-07 11:43:57,536 - INFO - LOAD Table book_author To staging schema DWH - SUCCESS
+2025-07-07 11:43:57,701 - INFO - LOAD Table customer_address To staging schema DWH - SUCCESS
+2025-07-07 11:43:57,760 - INFO - LOAD Table address To staging schema DWH - SUCCESS
+2025-07-07 11:43:58,533 - INFO - LOAD Table book To staging schema DWH - SUCCESS
+2025-07-07 11:43:58,943 - INFO - LOAD Table cust_order To staging schema DWH - SUCCESS
+2025-07-07 11:43:58,944 - INFO - LOAD All Tables To staging schema DWH - SUCCESS
+2025-07-07 11:43:58,944 - INFO - ==================================ENDING LOAD DATA=======================================
+2025-07-07 11:43:58,958 - INFO - load_log_2025-07-07 11:17:29 moved to /home/biyanbahtiar/pacmann/data_storage/dbt_x_luigi/pacbook_store/logs successfully

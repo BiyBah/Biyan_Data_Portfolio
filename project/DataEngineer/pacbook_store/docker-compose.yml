@@ -1,0 +1,23 @@
+version: '3'
+services:
+  postgres:
+    image: postgres:latest
+    container_name: pacbook-store-data
+    environment:
+      POSTGRES_DB: pacbook
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: mypassword
+    ports:
+      - "5433:5432"
+    volumes:
+      - ./data:/docker-entrypoint-initdb.d
+
+  postgres-dwh:
+    image: postgres:latest
+    container_name: pacbook-store-dwh
+    environment:
+      POSTGRES_DB: pacbook_dwh
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: mypassword
+    ports:
+      - "5434:5432"

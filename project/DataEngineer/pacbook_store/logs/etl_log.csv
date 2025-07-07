@@ -1,0 +1,31 @@
+step,status,error_msg,source,table_name,execution_time,etl_date
+extraction,success,,pacbook_transactional_db,public.country,0.05971384048461914,2025-07-07 11:17:29
+extraction,success,,pacbook_transactional_db,public.address_status,0.007989168167114258,2025-07-07 11:17:29
+extraction,success,,pacbook_transactional_db,public.author,0.05170941352844238,2025-07-07 11:17:29
+extraction,success,,pacbook_transactional_db,public.book_language,0.00960087776184082,2025-07-07 11:17:29
+extraction,success,,pacbook_transactional_db,public.publisher,0.018520116806030273,2025-07-07 11:17:29
+extraction,success,,pacbook_transactional_db,public.shipping_method,0.009381294250488281,2025-07-07 11:17:29
+extraction,success,,pacbook_transactional_db,public.order_status,0.007673025131225586,2025-07-07 11:17:29
+extraction,success,,pacbook_transactional_db,public.customer,0.021027326583862305,2025-07-07 11:17:29
+extraction,success,,pacbook_transactional_db,public.order_history,0.26095104217529297,2025-07-07 11:17:29
+extraction,success,,pacbook_transactional_db,public.order_line,0.31947875022888184,2025-07-07 11:17:29
+extraction,success,,pacbook_transactional_db,public.book_author,0.06872749328613281,2025-07-07 11:17:29
+extraction,success,,pacbook_transactional_db,public.customer_address,0.02371978759765625,2025-07-07 11:17:29
+extraction,success,,pacbook_transactional_db,public.address,0.017208337783813477,2025-07-07 11:17:29
+extraction,success,,pacbook_transactional_db,public.book,0.15217113494873047,2025-07-07 11:17:29
+extraction,success,,pacbook_transactional_db,public.cust_order,0.10741019248962402,2025-07-07 11:17:29
+load,success,,extracted csv from Extract(),country,0.030005693435668945,2025-07-07 11:17:29
+load,success,,extracted csv from Extract(),address_status,0.012735128402709961,2025-07-07 11:17:29
+load,success,,extracted csv from Extract(),author,0.32386302947998047,2025-07-07 11:17:29
+load,success,,extracted csv from Extract(),book_language,0.012783527374267578,2025-07-07 11:17:29
+load,success,,extracted csv from Extract(),publisher,0.06456303596496582,2025-07-07 11:17:29
+load,success,,extracted csv from Extract(),shipping_method,0.012229681015014648,2025-07-07 11:17:29
+load,success,,extracted csv from Extract(),order_status,0.011767148971557617,2025-07-07 11:17:29
+load,success,,extracted csv from Extract(),customer,0.07964706420898438,2025-07-07 11:17:29
+load,success,,extracted csv from Extract(),order_history,0.9392106533050537,2025-07-07 11:17:29
+load,success,,extracted csv from Extract(),order_line,0.8183243274688721,2025-07-07 11:17:29
+load,success,,extracted csv from Extract(),book_author,0.5067253112792969,2025-07-07 11:17:29
+load,success,,extracted csv from Extract(),customer_address,0.1636791229248047,2025-07-07 11:17:29
+load,success,,extracted csv from Extract(),address,0.05928516387939453,2025-07-07 11:17:29
+load,success,,extracted csv from Extract(),book,0.7717711925506592,2025-07-07 11:17:29
+load,success,,extracted csv from Extract(),cust_order,0.40983080863952637,2025-07-07 11:17:29

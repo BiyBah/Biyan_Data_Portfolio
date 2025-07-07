@@ -1,0 +1,7 @@
+numpy
+pandas
+luigi
+sqlalchemy
+os
+dotenv
+subprocess

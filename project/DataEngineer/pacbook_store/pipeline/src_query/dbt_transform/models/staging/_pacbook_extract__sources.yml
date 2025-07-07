@@ -1,0 +1,22 @@
+version: 2
+
+sources:
+  - name: pacbook_dwh
+    database: pacbook_dwh
+    schema: staging
+    tables:
+      - name: address
+      - name: address_status
+      - name: author
+      - name: book
+      - name: book_author
+      - name: book_language
+      - name: country
+      - name: cust_order
+      - name: customer
+      - name: customer_address
+      - name: order_history
+      - name: order_line
+      - name: order_status
+      - name: publisher
+      - name: shipping_method

@@ -1,0 +1,240 @@
+version: 2
+
+seeds:
+  - name: dim_time
+    description: "Dimension table for time"
+    columns:
+      - name: time_id
+        description: "primary key of dim_time"
+        tests: 
+          - unique
+          - not_null
+          - dbt_constraints.primary_key
+
+models:
+  - name: dim_date
+    description: "Dimension table for date"
+    columns:
+      - name: sk_date_id
+        description: "primary key of dim_date"
+        tests: 
+          - unique
+          - not_null
+          - dbt_constraints.primary_key
+          
+snapshots:
+  - name: dim_address
+    description: "Dimension table for address"
+    columns:
+      - name: sk_address_id
+        description: "surrogate key for address_id"
+        tests:
+          - unique
+          - not_null
+          - dbt_constraints.primary_key
+      - name: city
+        description: "city name of the address"
+        tests:
+          - not_null
+      - name: country_name
+        description: "country name of the address"
+        tests:
+          - not_null
+  
+  - name: dim_author
+    description: "Dimension table for author"
+    columns:
+      - name: sk_author_id
+        description: "surrogate key for author_id"
+        tests:
+          - unique
+          - not_null
+          - dbt_constraints.primary_key
+      - name: author_name
+        description: "the name of author"
+        tests:
+          - not_null   
+
+  - name: dim_book
+    description: "Dimension table for book"
+    columns:
+      - name: sk_book_id
+        description: "surrogate key for book_id"
+        tests: 
+          - unique
+          - not_null
+          - dbt_constraints.primary_key
+      - name: title
+        description: "book title name"
+        tests:
+          - not_null
+      - name: isbn13
+        description: "book isbn13 identifier"
+        tests:
+          - not_null
+      - name: publisher_name
+        description: "book publisher"
+        tests:
+          - not_null
+      - name: language_name
+        description: "book written language"
+        tests:
+          - not_null
+
+  - name: bridge_book_author
+    description: "Bridge table to handle many-to-many relationship of dim_book and dim_author"
+    tests:
+      - dbt_constraints.primary_key:
+          column_names:
+          - sk_author_id
+          - sk_book_id
+    columns:
+      - name: sk_author_id
+        description: "surrogate key for author_id"
+        tests: 
+          - not_null
+          - dbt_constraints.foreign_key:
+              pk_table_name: ref('dim_author')
+              pk_column_name: 'sk_author_id'
+      - name: sk_book_id
+        description: "surrogate key for book_id"
+        tests: 
+          - not_null
+          - dbt_constraints.foreign_key:
+              pk_table_name: ref('dim_book')
+              pk_column_name: 'sk_book_id'
+
+  - name: dim_customer
+    description: "Dimension table for customer"
+    columns:
+      - name: sk_customer_id
+        description: "surrogate key for customer_id"
+        tests: 
+          - unique
+          - not_null
+          - dbt_constraints.primary_key
+      - name: first_name
+        description: "customer first name"
+        tests:
+          - not_null
+      - name: email
+        description: "customer email"
+        tests:
+          - not_null
+
+  - name: fct_book_order
+    description: "Fact table to store metrics of each book ordered"
+    tests:
+      - first_date_more_than_second_date:
+          first_date_column: 'order_received_date'
+          second_date_column: 'pending_delivery_date'
+      - first_date_more_than_second_date:
+          first_date_column: 'pending_delivery_date'
+          second_date_column: 'delivery_in_progress_date'
+      - first_date_more_than_second_date:
+          first_date_column: 'delivery_in_progress_date'
+          second_date_column: 'delivered_date'   
+    columns:
+      - name: sk_line_id
+        description: "surrogate key for line_id"
+        tests: 
+          - unique
+          - not_null
+          - dbt_constraints.primary_key
+      - name: sk_customer_id
+        description: "surrogate key for customer_id, foreign key"
+        tests: 
+          - not_null
+          - dbt_constraints.foreign_key:
+              pk_table_name: ref('dim_customer')
+              pk_column_name: 'sk_customer_id'
+      - name: sk_address_id
+        description: "surrogate key for address_id, foreign key"
+        tests: 
+          - not_null
+          - dbt_constraints.foreign_key:
+              pk_table_name: ref('dim_address')
+              pk_column_name: 'sk_address_id'
+      - name: sk_book_id
+        description: "surrogate key for book_id, foreign key"
+        tests: 
+          - not_null
+          - dbt_constraints.foreign_key:
+              pk_table_name: ref('dim_book')
+              pk_column_name: 'sk_book_id'
+      - name: sk_date_id
+        description: "Foreign key for date dimension"
+        tests: 
+          - not_null
+          - dbt_constraints.foreign_key:
+              pk_table_name: ref('dim_date')
+              pk_column_name: 'sk_date_id'
+      - name: time_id
+        description: "Foreign key for time dimension"
+        tests: 
+          - not_null
+          - dbt_constraints.foreign_key:
+              pk_table_name: ref('dim_time')
+              pk_column_name: 'time_id'
+      - name: order_date
+        description: "Date the order_id created"
+        tests: 
+          - not_null
+      - name: order_time
+        description: "time the order_id created"
+        tests: 
+          - not_null
+      - name: order_line_price
+        description: "the price of each book in certain order_id"
+        tests: 
+          - not_null
+          - is_less_than_zero
+
+  - name: fct_customer_behavior
+    description: "Fact table to store metrics per customer related to their behavior"
+    columns:
+      - name: sk_customer_id
+        description: "surrogate key for customer_id"
+        tests: 
+          - unique
+          - not_null
+          - dbt_constraints.primary_key
+          - dbt_constraints.foreign_key:
+              pk_table_name: ref('dim_customer')
+              pk_column_name: 'sk_customer_id'
+      - name: sk_date_id
+        description: "surrogate key for date_day (foreign key)"
+        tests:
+          - not_null
+          - dbt_constraints.foreign_key:
+              pk_table_name: ref('dim_date')
+              pk_column_name: 'sk_date_id'
+      - name: order_frequency
+        description: "order frequency of each customer to our store"
+        tests: 
+          - not_null
+          - is_less_than_zero
+      - name: avg_days_between_orders
+        description: "average days between each order made by customer"
+        tests: 
+          - not_null
+          - is_less_than_zero
+      - name: avg_months_between_orders
+        description: "average months between each order made by customer"
+        tests: 
+          - not_null
+          - is_less_than_zero
+      - name: avg_years_between_orders
+        description: "average months between each order made by customer"
+        tests: 
+          - not_null
+          - is_less_than_zero
+      - name: last_order_date
+        description: "Last date of order by each customer"
+        tests: 
+          - not_null
+      - name: average_order_value
+        description: "The average sales made by each customer for each order"
+        tests: 
+          - not_null
+          - is_less_than_zero

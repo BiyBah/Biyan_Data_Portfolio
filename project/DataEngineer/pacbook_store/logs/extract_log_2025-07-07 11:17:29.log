@@ -1,0 +1,18 @@
+2025-07-07 11:43:53,246 - INFO - ==================================STARTING EXTRACT DATA=======================================
+2025-07-07 11:43:53,306 - INFO - EXTRACT public.country - SUCCESS.
+2025-07-07 11:43:53,314 - INFO - EXTRACT public.address_status - SUCCESS.
+2025-07-07 11:43:53,366 - INFO - EXTRACT public.author - SUCCESS.
+2025-07-07 11:43:53,376 - INFO - EXTRACT public.book_language - SUCCESS.
+2025-07-07 11:43:53,395 - INFO - EXTRACT public.publisher - SUCCESS.
+2025-07-07 11:43:53,405 - INFO - EXTRACT public.shipping_method - SUCCESS.
+2025-07-07 11:43:53,413 - INFO - EXTRACT public.order_status - SUCCESS.
+2025-07-07 11:43:53,434 - INFO - EXTRACT public.customer - SUCCESS.
+2025-07-07 11:43:53,695 - INFO - EXTRACT public.order_history - SUCCESS.
+2025-07-07 11:43:54,016 - INFO - EXTRACT public.order_line - SUCCESS.
+2025-07-07 11:43:54,085 - INFO - EXTRACT public.book_author - SUCCESS.
+2025-07-07 11:43:54,109 - INFO - EXTRACT public.customer_address - SUCCESS.
+2025-07-07 11:43:54,126 - INFO - EXTRACT public.address - SUCCESS.
+2025-07-07 11:43:54,279 - INFO - EXTRACT public.book - SUCCESS.
+2025-07-07 11:43:54,386 - INFO - EXTRACT public.cust_order - SUCCESS.
+2025-07-07 11:43:54,387 - INFO - ==================================ENDING EXTRACT DATA=======================================
+2025-07-07 11:43:54,401 - INFO - extract_log_2025-07-07 11:17:29 moved to /home/biyanbahtiar/pacmann/data_storage/dbt_x_luigi/pacbook_store/logs successfully
