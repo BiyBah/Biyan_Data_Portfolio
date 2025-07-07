@@ -14,8 +14,9 @@ Data cleaning, data visualization, statistical analysis, and extracting insights
 I'm currently pursuing data engineering course, learning relational database best practices and docker.
 
 ## Latest project
-![AI-Powered Inventory Optimization Hub](https://github.com/Group4IYKRA/ai-dashboard-app)
-![create_used_car_ecommerce_database](./project/DataEngineer/used_car_ecommerce_database)
+- ![create_data_warehouse_using dbt_and_luigi](./project/DataEngineer/pacbook_store)
+- ![AI-Powered Inventory Optimization Hub](https://github.com/Group4IYKRA/ai-dashboard-app)
+- ![create_used_car_ecommerce_database](./project/DataEngineer/used_car_ecommerce_database)
 
 ## Let's Connect!
 [Email](mailto:biyan.bahtiar@gmail.com)
