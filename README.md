@@ -14,7 +14,7 @@ Data cleaning, data visualization, statistical analysis, and extracting insights
 I'm currently pursuing data engineering course, learning relational database best practices and docker.
 
 ## Latest project
-- ![Build Data Warehouse ETL pipeline using pyspark](./project/DataEngineer/startup_investment_etl_pipeline)
+- ![Build Data Warehouse ETL pipeline including Data Profiling with pyspark](./project/DataEngineer/startup_investment_etl_pipeline)
 - ![Build Data Warehouse ETL pipeline using dbt and luigi](./project/DataEngineer/pacbook_store)
 - ![AI-Powered Inventory Optimization Hub](https://github.com/Group4IYKRA/ai-dashboard-app)
 - ![Create Used Car Ecommerce Database](./project/DataEngineer/used_car_ecommerce_database)
