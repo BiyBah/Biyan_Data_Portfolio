@@ -11,7 +11,7 @@ Data cleaning, data visualization, statistical analysis, and extracting insights
 - SQL (Aggregation, GROUP BY, Window function, CTE)
 - BI Tools (Power BI, Looker Studio, Tableau)
 
-I'm currently pursuing data engineering course, learning relational database best practices and docker.
+I'm currently pursuing data engineering course, learning ETL, web scraping and python programming.
 
 ## Latest project
 - ![Build Data Warehouse ETL pipeline including Data Profiling with pyspark](./project/DataEngineer/startup_investment_etl_pipeline)
